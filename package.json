@@ -1,0 +1,21 @@
+{
+  "name": "board-console",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Web admin console for a Raspberry Pi and a Rock 5B over SSH",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "reset-password": "node src/server.js --reset-password"
+  },
+  "dependencies": {
+    "@xterm/addon-fit": "^0.11.0",
+    "@xterm/xterm": "^6.0.0",
+    "ssh2": "^1.17.0",
+    "ws": "^8.22.1"
+  }
+}

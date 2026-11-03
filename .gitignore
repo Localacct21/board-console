@@ -1,0 +1,5 @@
+node_modules/
+# Password hash and audit log
+data/
+# Your boards' addresses, usernames and key paths
+config/hosts.json

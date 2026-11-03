@@ -1,0 +1,18 @@
+[
+  {
+    "id": "pi",
+    "name": "Raspberry Pi",
+    "host": "raspberrypi.local",
+    "port": 22,
+    "user": "root",
+    "key": "~/.ssh/id_ed25519_pi"
+  },
+  {
+    "id": "rock5b",
+    "name": "Rock 5B",
+    "host": "rock5b.local",
+    "port": 22,
+    "user": "root",
+    "key": "~/.ssh/id_ed25519_rock"
+  }
+]
